@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sonyliv/home.dart';
+import 'package:sonyliv/presentation/home.dart';
 
 void main(List<String> args) {
   runApp(const MyApp());

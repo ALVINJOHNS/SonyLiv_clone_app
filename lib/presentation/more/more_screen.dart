@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
-class More extends StatelessWidget {
-  More({super.key});
+class MoreScreen extends StatelessWidget {
+  MoreScreen({super.key});
+  
   List<Map<String, dynamic>> more = [
     {
       'icon': Icons.notifications_outlined,

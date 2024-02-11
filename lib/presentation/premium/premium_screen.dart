@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-class MyList extends StatelessWidget {
-  const MyList({super.key});
+class PremiumScreen extends StatelessWidget {
+  const PremiumScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/container.dart';
 import 'package:flutter/src/widgets/framework.dart';
 
-class Search extends StatefulWidget {
-  Search({super.key});
+class SearchScreen extends StatefulWidget {
+  SearchScreen({super.key});
 
   @override
-  State<Search> createState() => _SearchState();
+  State<SearchScreen> createState() => _SearchScreenState();
 }
 
-class _SearchState extends State<Search> {
+class _SearchScreenState extends State<SearchScreen> {
   TextEditingController searchboxcontroller = TextEditingController();
   var check = '';
   @override

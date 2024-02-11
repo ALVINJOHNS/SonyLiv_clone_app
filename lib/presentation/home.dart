@@ -1,11 +1,10 @@
 import 'package:floating_bottom_navigation_bar/floating_bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
-
-import 'package:sonyliv/pages/mainmenu.dart';
-import 'package:sonyliv/pages/more.dart';
-import 'package:sonyliv/pages/mylist.dart';
-import 'package:sonyliv/pages/premium.dart';
-import 'package:sonyliv/pages/search.dart';
+import 'package:sonyliv/presentation/mainmenu/mainmenu.dart';
+import 'package:sonyliv/presentation/more/more_screen.dart';
+import 'package:sonyliv/presentation/mylist/mylist_screen.dart';
+import 'package:sonyliv/presentation/premium/premium_screen.dart';
+import 'package:sonyliv/presentation/search/search_screen.dart';
 
 class Home extends StatefulWidget {
   const Home({super.key});
@@ -15,7 +14,7 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
-  final pages = [Mainmenu(), Search(), Premium(), MyList(), More()];
+  final pages = [MainmenuScreen(), SearchScreen(), PremiumScreen(), MyListScreen(), MoreScreen()];
   int index = 0;
   @override
   Widget build(BuildContext context) {
