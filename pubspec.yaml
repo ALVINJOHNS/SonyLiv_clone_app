@@ -32,11 +32,15 @@ dependencies:
   cached_network_image: ^3.2.2
   carousel_indicator: ^1.0.6
   cupertino_icons: ^1.0.2
+  dartz: ^0.10.1
+  dio: ^5.5.0+1
   floating_bottom_navigation_bar: ^1.5.2
   flutter:
     sdk: flutter
   flutter_bloc: ^8.1.4
   flutter_carousel_slider: ^1.0.9
+  get_it: ^7.7.0
+  injectable: ^2.4.4
   json_annotation: ^4.8.1
   json_serializable: ^6.7.1
 
@@ -46,6 +50,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   freezed: ^2.4.7
+  injectable_generator: ^2.6.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
